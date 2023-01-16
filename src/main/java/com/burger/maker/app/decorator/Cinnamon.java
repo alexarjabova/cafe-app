@@ -1,7 +1,6 @@
 package com.burger.maker.app.decorator;
 
 public class Cinnamon extends CoffeeToppings {
-
     CoffeeDrink coffeeDrink;
 
     public Cinnamon(CoffeeDrink coffeeDrink){
@@ -16,4 +15,5 @@ public class Cinnamon extends CoffeeToppings {
     {
         return 0.10 + coffeeDrink.cost();
     }
+
 }

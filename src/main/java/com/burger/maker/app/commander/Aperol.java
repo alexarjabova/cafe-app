@@ -13,7 +13,7 @@ public class Aperol implements Drink {
             System.out.println("Aperol: Preparing drink.....");
             commander.setInProgress(true);
         } else {
-            System.out.println("Aperol: Cannot prepare drink now. Other drink in progress....");
+            System.out.println("Aperol: Can not prepare drink now. Other drink in progress....");
         }
     }
 
@@ -22,4 +22,5 @@ public class Aperol implements Drink {
         System.out.println("Aperol: drink is ready.....");
         commander.setInProgress(false);
     }
+
 }

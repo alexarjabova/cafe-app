@@ -16,4 +16,5 @@ public abstract class CatalogComponent {
     public void print(){
         throw new UnsupportedOperationException("Cannot print information from menu");
     }
+
 }

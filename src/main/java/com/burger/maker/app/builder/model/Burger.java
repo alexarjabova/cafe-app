@@ -1,5 +1,4 @@
-package com.burger.maker.app.model;
-
+package com.burger.maker.app.builder.model;
 
 import lombok.Setter;
 

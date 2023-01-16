@@ -1,9 +1,8 @@
 package com.burger.maker.app.builder;
 
-import com.burger.maker.app.model.*;
+import com.burger.maker.app.builder.model.*;
 
 public class FishBurgerBuilder implements BurgerBuilder {
-
     private Burger burger;
 
     public FishBurgerBuilder() {
@@ -69,4 +68,5 @@ public class FishBurgerBuilder implements BurgerBuilder {
         System.out.println("FishBurgerBuilder: Fish Burger complete...");
         return this.burger;
     }
+
 }

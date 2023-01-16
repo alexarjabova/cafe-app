@@ -1,6 +1,6 @@
 package com.burger.maker.app.builder;
 
-import com.burger.maker.app.model.Burger;
+import com.burger.maker.app.builder.model.Burger;
 
 public interface BurgerBuilder {
     void addBurgerBun();
@@ -11,7 +11,8 @@ public interface BurgerBuilder {
     void addVegetables();
     void addCheese();
     void addMayonnaise();
-    void addBurgerPatty(); //chicken, fish
+    void addBurgerPatty();
 
     Burger getReadyBurger();
+
 }

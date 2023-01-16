@@ -1,7 +1,6 @@
 package com.burger.maker.app.commander;
 
 public class CommanderImpl implements Commander {
-
     Drink mohito, aperol;
 
     boolean inProgress = true;
@@ -27,4 +26,5 @@ public class CommanderImpl implements Commander {
     public void stop(Drink drink) {
         drink.stop();
     }
+
 }

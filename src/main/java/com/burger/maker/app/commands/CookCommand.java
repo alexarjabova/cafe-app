@@ -5,7 +5,6 @@ import lombok.Data;
 
 @Data
 public class CookCommand implements Command{
-
     BurgerEngineer burger;
 
     public CookCommand(BurgerEngineer burger){
@@ -13,9 +12,9 @@ public class CookCommand implements Command{
     }
 
     public void execute(){
-        System.out.println("Order is received. Starting cooking burger");
+        System.out.println("Check with order is received. Starting cooking burger");
         burger.createBurger();
-        System.out.println("Burger is ready");
+        System.out.println("Burger is ready! ");
     }
 
 }

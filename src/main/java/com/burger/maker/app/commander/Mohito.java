@@ -13,7 +13,7 @@ public class Mohito implements Drink {
             System.out.println("Mohito: Preparing drink.....");
             commander.setInProgress(true);
         } else {
-            System.out.println("Mohito: Cannot prepare drink now. Other drink in progress....");
+            System.out.println("Mohito: Can not prepare drink now. Other drink in progress....");
         }
     }
 
@@ -22,4 +22,5 @@ public class Mohito implements Drink {
         System.out.println("Mohito: drink is ready.....");
         commander.setInProgress(false);
     }
+
 }

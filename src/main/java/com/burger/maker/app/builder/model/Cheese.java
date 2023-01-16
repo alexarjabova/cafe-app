@@ -1,10 +1,10 @@
-package com.burger.maker.app.model;
+package com.burger.maker.app.builder.model;
 
 import lombok.Getter;
 
 @Getter
 public enum Cheese {
-    CHEDDAR_CHEESE,
     MOZZARELLA_CHEESE,
     OLD_ENGLISH_CHEESE
+
 }
